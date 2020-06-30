@@ -22,10 +22,15 @@
 // then move on to boxes in boxes in boxes. Boxes in boxes will be a big stretch.
 // You may want to research recursion if you get this far.
 
-
 module.exports = function (box) {
-    // YOUR CODE HERE
-
-}
+  let vialCount = 0;
+  for (let each of box) {
+    if (each == 'vial') {
+      vialCount++;
+      console.log(vialCount);
+    } else if (array.isArray(each)) {
+    }
+  }
+};
 
 // Don't forget to write tests!
